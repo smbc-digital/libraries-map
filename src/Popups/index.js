@@ -4,6 +4,7 @@ const librariesPopup = (feature, layer) => {
   <p></p>
   <p class="info"><a href="${feature.properties.url}" target="_blank">${feature.properties.facility_name}</a></p>
   <p class="info">Address: ${feature.properties.postal_address}</p>
+  <p class="info"><a href="${feature.properties.opening__times}" target="_blank">Opening Times</a></p>
   <p></p>
   <p class="title"><a href="mailto:${feature.properties.email}" target="_blank">Email Library</a></p>
   </div>`
